@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8abd12f-4bbd-4fe5-8e4a-21b6d8ba5af4" name="Changes" comment="Initial implementation of teh chatBot" />
+    <list default="true" id="b8abd12f-4bbd-4fe5-8e4a-21b6d8ba5af4" name="Changes" comment="Initial implementation of the chatBot">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.setup_st.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "C:/Users/duran/PycharmProjects/CV-Maker-GenAI-project-",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,6 +86,7 @@
       <workItem from="1736419949244" duration="2406000" />
       <workItem from="1736422696079" duration="1519000" />
       <workItem from="1736503117067" duration="2331000" />
+      <workItem from="1736512927053" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="Checking github commit">
       <option name="closed" value="true" />
@@ -117,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736511628245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial implementation of the chatBot">
+      <option name="closed" value="true" />
+      <created>1736512975734</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736512975734</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Checking github commit" />
     <MESSAGE value="Initial implementation of teh chatBot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial implementation of teh chatBot" />
+    <MESSAGE value="Initial implementation of the chatBot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial implementation of the chatBot" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CV_Maker_GenAI_project_$setup_st.coverage" NAME="setup_st Coverage Results" MODIFIED="1736512078649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -1,11 +1,13 @@
 import streamlit as st
 import os
+from dotenv import load_dotenv
 import random
 import time
 import openai as openai
 
-api_key = openai_api_key = os.getenv("OPENAI_API_KEY")
+load_dotenv()
 
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # 1. Function to set up the page's layout and design elements
 def set_design():
@@ -40,7 +42,7 @@ def initialize_session_state():
         st.session_state['temperature'] = []
     # Initializes the OpenAI API key variable
     if 'api_key' not in st.session_state:
-        st.session_state['api_key'] = api_key
+        st.session_state['api_key'] = openai_api_key
     # Initializes the use index variable to determine if we use index in replies
     if 'use_index' not in st.session_state:
         st.session_state['use_index'] = False
